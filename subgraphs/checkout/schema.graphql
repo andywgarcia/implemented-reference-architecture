@@ -34,7 +34,7 @@ type User @key(fields: "id") {
 }
 
 """
-An user's saved cart session. Only one cart can be active at a time
+A user's saved cart session. Only one cart can be active at a time
 """
 type Cart @key(fields: "userId") {
   """
